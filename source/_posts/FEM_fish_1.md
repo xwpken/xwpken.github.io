@@ -1,3 +1,9 @@
+
+---
+title: [Reading notes] A First Course in Finite Elements 1
+---
+
+
 # Chapter 2  Direct Approach for Discrete Systems
 
 ## Basic steps for FEM:
