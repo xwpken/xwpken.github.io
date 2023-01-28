@@ -134,7 +134,7 @@ f_3
 
 $$
   \begin{bmatrix}
-   cos(\theta) & -sin(\theta)  \\\\      #注意，hexo写矩阵时只用两个斜杠，会出错，虽然mardown中是正确的。
+   cos(\theta) & -sin(\theta)  \\\\     
    sin(\theta) & cos(\theta)
   \end{bmatrix} \tag{2}
 $$
