@@ -116,21 +116,23 @@ where $\overline{u}_1$ is the prescribed displacement
 Solve $u_i$ then back substitution to get $r_1$
 + Penalty method
 
-$\left[\begin{matrix}
-\beta & {K}_{12} & {K}_{13}\\\\
-{K}_{21} & {K}_{22} & {K}_{23} \\\\
-{K}_{31} & {K}_{32} & {K}_{33} 
-\end{matrix}\right]
-\left[\begin{matrix}
-u_{1}\\\\
-u_{2}\\\\
-u_{3}
-\end{matrix}\right]=
-\left[\begin{matrix}
-\beta\overline{u}_1\\\\
-f_2\\\\
-f_3
-\end{matrix}\right]$
+$ 
+  \begin{bmatrix}
+   \beta & {K}_{12} & {K}_{13}\\\\
+   {K}_{21} & {K}_{22} & {K}_{23} \\\\
+   {K}_{31} & {K}_{32} & {K}_{33} 
+  \end{bmatrix}
+  \begin{bmatrix}
+   u_{1}\\\\
+   u_{2}\\\\
+   u_{3}
+  \end{bmatrix}=
+  \begin{bmatrix}
+   \beta\overline{u}_1\\\\
+   f_2\\\\
+   f_3
+  \end{bmatrix}
+$
 
 $$
   \begin{bmatrix}
