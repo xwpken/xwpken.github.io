@@ -118,9 +118,9 @@ Solve $u_i$ then back substitution to get $r_1$
 
 $ 
   \begin{bmatrix}
-   \beta & {K}_{12} & {K}_{13}  \\\\
-   {K}_{21} & {K}_{22} & {K}_{23}  \\\\
-   {K}_{31} & {K}_{32} & {K}_{33} 
+   \beta & K_{12} & K_{13}  \\\\
+   K_{21} & K_{22} & K_{23}  \\\\
+   K_{31} & K_{32} & K_{33} 
   \end{bmatrix}
   \begin{bmatrix}
    u_{1}\\\\
