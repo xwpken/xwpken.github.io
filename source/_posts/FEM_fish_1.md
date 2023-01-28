@@ -1,4 +1,3 @@
-
 ---
 title: [Reading notes] A First Course in Finite Elements 1
 ---
