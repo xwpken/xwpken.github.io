@@ -127,6 +127,24 @@ $
   \end{bmatrix}
 $
 
+$ 
+  \begin{bmatrix}
+   \beta & K_{12} & K_{13}  \\\\
+   K_{21} & K_{22} & K_{23}  \\\\
+   K_{31} & K_{32} & K_{33} 
+  \end{bmatrix}
+  \begin{bmatrix}
+   u_{1}\\\\
+   u_{2}\\\\
+   u_{3}
+  \end{bmatrix}=
+  \begin{bmatrix}
+   \beta\overline{u}_1\\\\
+   f_2\\\\
+   f_3
+  \end{bmatrix}
+$
+
 where $\overline{u}_1$ is the prescribed displacement
 
 Solve $u_i$ then back substitution to get $r_1$
