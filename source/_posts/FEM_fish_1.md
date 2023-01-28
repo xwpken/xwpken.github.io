@@ -119,7 +119,7 @@ Solve $u_i$ then back substitution to get $r_1$
 $ 
   \begin{bmatrix}
    \beta & {K}_{12} & {K}_{13}\\\\
-   {K}_{21} & {K}_{22} & {K}_{23} \\\\
+   {K}_{21} & {K}_{22} & {K}_{23}\\\\
    {K}_{31} & {K}_{32} & {K}_{33} 
   \end{bmatrix}
   \begin{bmatrix}
