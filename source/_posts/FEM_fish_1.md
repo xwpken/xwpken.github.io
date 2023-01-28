@@ -1,5 +1,6 @@
 ---
 title: A First Course in Finite Elements 1
+mathjax: true
 ---
 
 
