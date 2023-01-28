@@ -109,7 +109,7 @@ from second row then taken into first row to get
 $\pmb{r}_{E}$
 + Draw 0 and set 1
 
-$\left[\begin{matrix}1 & 0 & 0\\\\0 & {K}_{22} & {K}_{23} \\0 & {K}_{32} & {K}_{33} \end{matrix}\right]\left[\begin{matrix}u_{1}\\u_{2}\\u_{3}\end{matrix}\right]=\left[\begin{matrix}\overline{u}_1\\f_{2}-\overline{u}_1K_{21}\\f_3-\overline{u}_1K_{31}\end{matrix}\right]$
+$\left[\begin{matrix}1 & 0 & 0  \\\\0 & {K}_{22} & {K}_{23}  \\\\0 & {K}_{32} & {K}_{33} \end{matrix}\right]\left[\begin{matrix}u_{1}\\\\u_{2}\\\\u_{3}\end{matrix}\right]=\left[\begin{matrix}\overline{u}_1\\\\f_{2}-\overline{u}_1K_{21}\\\\f_3-\overline{u}_1K_{31}\end{matrix}\right]$
 
 where $\overline{u}_1$ is the prescribed displacement
 
