@@ -2,7 +2,7 @@
 title: About me
 ---
 
-Hello, I'm Weipeng X from China.
+Hello, I'm Weipeng Xu from China.
 
 Recently I am working on master degree of civil eniineering at South China University of Technology (SCUT).
 
