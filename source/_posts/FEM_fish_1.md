@@ -121,8 +121,8 @@ $
    u_{3}
   \end{bmatrix}=
   \begin{bmatrix}
-   \overline{u}_1\\\\
-   f_{2}-\overline{u}_1K_{21}\\\\
+   \overline{u}_1  \\\\
+   f_{2}-\overline{u}_1K_{21}  \\\\
    f_3-\overline{u}_1K_{31}
   \end{bmatrix}
 $
