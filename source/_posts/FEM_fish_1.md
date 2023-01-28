@@ -1,5 +1,5 @@
 ---
-title: [Reading notes] A First Course in Finite Elements 1
+title: A First Course in Finite Elements 1
 ---
 
 
@@ -39,7 +39,7 @@ nodal displacements
 
 $\downarrow$ ------- Equilibrium of the element
 
- element formulation
+element formulation
 
 
 > P13 sign convention for 'internal axial force' and 'nodal internal forces'
