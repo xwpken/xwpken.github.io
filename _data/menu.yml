@@ -5,7 +5,7 @@ entries:
   - title: About me
     entries:
       - title: A PhD student in Civil Engineering at HKUST, advised by <a href='https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju'>Prof. Tianju Xue</a>
-      - title: github repo
+      - title: GitHub repo
         url: https://github.com/riggraz/no-style-please
       - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
