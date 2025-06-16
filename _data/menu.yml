@@ -2,9 +2,9 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: About me
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
+      - title: A PhD student in Civil Engineering at HKUST, advised by <a href='https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju'>Prof. Tianju Xue</a>
       - title: github repo
         url: https://github.com/riggraz/no-style-please
       - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
