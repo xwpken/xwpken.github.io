@@ -2,8 +2,8 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: '<img src="/_figures/main.png" alt="main page" width="800">'
-  
+  - title: '<img src="/figures/main.png" alt="main page" width="800">'
+
   - title: About me
     entries:
       - title: A PhD student in Civil Engineering at <a href='https://hkust.edu.hk/'>HKUST</a>, advised by <a href='https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju'>Prof. Tianju Xue</a>
