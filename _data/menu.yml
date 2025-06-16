@@ -3,15 +3,14 @@
 
 entries:
   - title: '<img src="/_figures/main.png" alt="main page" width="800">'
-
-entries:
+  
   - title: About me
     entries:
       - title: A PhD student in Civil Engineering at <a href='https://hkust.edu.hk/'>HKUST</a>, advised by <a href='https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju'>Prof. Tianju Xue</a>
       - title: CV - <a href='https://github.com/xwpken'>PDF</a>
       - title: GitHub - <a href='https://github.com/xwpken'>Repo</a>
       - title: Publications - <a href='https://github.com/xwpken'>Google Scholar</a>
-  
+
   - title: News
     post_list:
       category: example2
@@ -34,5 +33,4 @@ entries:
 
   - title: Contact me
     entries:
-      - Email: me.wxu@outlook.com 
-
+      - title: Email - me.wxu@outlook.com 
