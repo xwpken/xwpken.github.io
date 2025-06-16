@@ -18,10 +18,9 @@ entries:
 
   - title: Software/Codes
     entries:
-      - title: mfem
-      - title: modes
-      - title: DiffLiB
-        url: https://github.com/xwpken/DiffLiB
+      - title: <a href='https://github.com/xwpken/DiffLiB'>DiffLiB</a> (Differentiable LIBs simulation framework)
+      # - title: mfem (Simple FEA and topology optimization)
+      # - title: modes (ODE solvers implemented in C++)
 
   - title: Posts
     post_list:
