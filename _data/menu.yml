@@ -5,12 +5,16 @@ entries:
   - title: About me
     entries:
       - title: A PhD student in Civil Engineering at <a href='https://hkust.edu.hk/'>HKUST</a>, advised by <a href='https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju'>Prof. Tianju Xue</a>
-      - title: Curriculum Vitae
-        url: https://github.com/xwpken
-      - title: GitHub Repo
-        url: https://github.com/xwpken
-      - title: Google Scholar
-        url: https://github.com/xwpken
+      - title: CV: <a href='https://github.com/xwpken'>PDF</a>
+      - title: GitHub - <a href='https://github.com/xwpken'>Repo</a>
+      - title: Publications - <a href='https://github.com/xwpken'>Google Scholar</a>
+  
+  - title: News
+    post_list:
+      category: example2
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
 
   - title: Software/Codes
     entries:
