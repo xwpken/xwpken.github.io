@@ -96,3 +96,9 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+li:has(img.menu-img-nodot) {
+  list-style: none !important;
+  // margin-left: 0 !important;
+  // padding-left: 0 !important;
+}
