@@ -11,13 +11,6 @@ entries:
       - title: GitHub - <a href='https://github.com/xwpken'>Repo</a>
       - title: Publications - <a href='https://github.com/xwpken'>Google Scholar</a>
 
-  - title: News
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-
   - title: Software/Codes
     entries:
       - title: <a href='https://github.com/xwpken/DiffLiB'>DiffLiB</a> (Differentiable LIBs simulation framework)
