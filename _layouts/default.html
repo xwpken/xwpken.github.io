@@ -106,7 +106,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Software</h2>
-              <p> I am an active contributor to <a href="https://github.com/deepmodeling/jax-fem">JAX-FEM</a>, a differentiable finite element package based on <a href="https://jax.readthedocs.io/en/latest/">JAX</a>, led by my supervisor Prof. Tianju Xue. In addition, I engage in personal projects focused on numerical methods and scientific computing. Below are some highlights of my software work.
+              <p> I am an active contributor to <a href="https://github.com/deepmodeling/jax-fem">JAX-FEM</a>, a differentiable finite element package based on <a href="https://jax.readthedocs.io/en/latest/">JAX</a>, led by my supervisor Prof. Tianju Xue. In addition, I engage in personal/collaborative projects focused on numerical methods and scientific computing. Below are some highlights of my software work.
               </p>
             </td>
           </tr>
@@ -120,18 +120,15 @@
               <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
                 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
               </td>
-              <td style="padding:2.5%;width:75%;vertical-align:middle">
-                <h3>{{post.title}}</h3>
-                <p><strong>Language:</strong> {{post.language}}</p>
-                <p><strong>Latest Version:</strong> {{post.latest_version}}</p>
-                <p><strong>New Features:</strong> {{post.features}}</p>
-                <p><strong>URL:</strong> <a href="{{post.url}}">{{post.url}}</a></p>
-                <br>
-                <em>{{post.categories}} {{post.course}}</em>
-                <br>
-                {{ post.date | date: "%Y-%m-%d" }}
-                <br>
-                {{ post.excerpt }}
+              <td style="padding:2.5%;width:75%;vertical-align:middle;line-height:1.4;">
+                  <div style="font-size:1.25em;font-weight:bold;margin-bottom:2px;">{{post.title}}</div>
+                  <ul style="list-style:none;padding:0;margin:0;">
+                    <li>Language: {{post.language}}</li>
+                    <li>Latest Version: {{post.latest_version}}</li>
+                    <li>New Features: {{post.features}}</li>
+                    <li>Website: <a href="{{post.url}}">{{post.url}}</a></li>
+                  </ul>
+                  <div>{{ post.excerpt }}</div>
               </td>
             </tr>
           {% endif %}

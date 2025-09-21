@@ -6,6 +6,6 @@ categories: software
 language: Python
 latest_version: v0.0.1
 features: Reorganize framework
-url: https://github.com/CMSL-HKUST/DiffLiB
+website: https://github.com/CMSL-HKUST/DiffLiB
 ---
 High-fidelity differentiable modeling of lithium-ion batteries and efficient gradient-based parameter identification.
