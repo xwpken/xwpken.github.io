@@ -124,8 +124,8 @@
               </td>
               <td style="padding:2.5%;width:75%;vertical-align:middle;line-height:1.4;">
                   <div style="font-size:1.25em;font-weight:bold;display:inline;">{{post.title}}</div>
-                  <span style="font-weight:normal; margin-left:8px; font-size:1.25em;">{{post.excerpt}}</span>
                   <ul style="list-style:none;padding:0;margin:0;">
+                    <li>Description: {{post.excerpt}}</li>
                     <li>Language: {{post.language}}</li>
                     <li>Latest Version: {{post.latest_version}}</li>
                     <li>New Features: {{post.features}}</li>
@@ -231,15 +231,12 @@
           {% endfor %}
         </table>
 
-
-
-
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a> and <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/leonidk.github.io">Jekyll fork</a>.
               </p>
             </td>
           </tr>

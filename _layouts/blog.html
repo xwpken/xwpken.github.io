@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/images/default/favicon.ico">
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <!-- MathJax for LaTeX math rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <div style="max-width:800px;margin:40px auto 40px auto;padding:24px;background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <h1 style="font-size:2em;font-weight:bold;margin-bottom:0.2em;">{{ page.title }}</h1>
-    <div style="color:#888;font-size:1em;margin-bottom:1.5em;">{{ page.date | date: "%Y-%m-%d" }}</div>
+  <h1 style="font-size:2em;font-weight:bold;margin-bottom:0.2em;">{{ page.title }}</h1>
+  <div style="color:#888;font-size:1em;margin-bottom:1.5em;text-align:center;">{{ page.date | date: "%Y-%m-%d" }}</div>
     <div class="post-content" style="font-size:1.1em;line-height:1.7;">
       {{ content }}
     </div>
