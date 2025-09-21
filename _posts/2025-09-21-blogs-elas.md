@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: "A Brief Introduction to Linear Elasticity"
 date: 2025-09-21
 categories: blogs
