@@ -34,14 +34,14 @@
               <h1>
                 Weipeng XU
               </h1>
-              <p>I am a PhD student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>. My PhD advisor is <a href="https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju">Prof. Tianju XUE</a>.
+              <p>I am a PhD student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, where I worked on differentiable physics under the guidance of <a href="https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju">Prof. Tianju XUE</a>.
               </p>
               <p>
-                From 2017 to 2021, 
+                I earned my Bachelor's degree (2017-2021) in Civil Engineering at the <a href="https://www.scut.edu.cn/en">South China University of Technology (SCUT)</a>. I then pursue my Master's degree (2021-2024) under the supervision of <a href="https://scholar.google.com/citations?user=Cxs-n5wAAAAJ">Prof. Peng WEI</a>, during which my research focused on structural topology optimization.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="wxuby@connect.ust.hk"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/xwpken">GitHub</a> &nbsp;/&nbsp;
+                <a href="mailto:wxuby@connect.ust.hk">Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/xwpken">GitHub</a> 
                 <!-- <a href="https://scholar.google.com/citations?user=GCYG4GoAAAAJ">Google Scholar</a> &nbsp;/&nbsp; -->
                 <!-- <a href="https://www.linkedin.com/in/lkeselman"> LinkedIn </a> -->
               </p>
@@ -114,8 +114,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Intel Projects</h2>
-              <p>Besides my work on the RealSense depth sensors and the publications above, a sampling of my publicly disclosed work
+              <h2>Software</h2>
+              <p> Personal projects, especially those related to numerical methods and scientific computing.
               </p>
             </td>
           </tr>
@@ -124,7 +124,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
+          {% if cat == 'software' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -181,8 +181,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
+              <h2>Blogs</h2>
+              <p> These are personal notes on mathematics and physics.
               </p>
             </td>
           </tr>
@@ -191,7 +191,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
+          {% if cat == 'blogs'%}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -242,6 +242,75 @@
           {% endfor %}
           {% endfor %}
         </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Miscellanea</h2>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'others'%}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              <em>{{post.categories}} {{post.course}}</em>
+              <br>
+              {{ post.date | date: "%Y-%m-%d" }}
+
+              <br>
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.patent %}
+              <a href="{{post.patent}}">patent</a> /
+              {% endif %}
+              {% if post.patent2 %}
+              <a href="{{post.patent2}}">patent #2</a> /
+              {% endif %}
+              {% if post.patent3 %}
+              <a href="{{post.patent3}}">patent #3</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.video2 %}
+              <a href="{{post.video2}}">video #2</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+
+
+
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
