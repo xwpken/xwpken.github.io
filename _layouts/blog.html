@@ -11,14 +11,21 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <div style="max-width:800px;margin:40px auto 40px auto;padding:24px;background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-  <h1 style="font-size:2em;font-weight:bold;margin-bottom:0.2em;">{{ page.title }}</h1>
-  <div style="color:#888;font-size:1em;margin-bottom:1.5em;text-align:center;">{{ page.date | date: "%Y-%m-%d" }}</div>
-    <div class="post-content" style="font-size:1.1em;line-height:1.7;">
+  <div style="max-width:800px;margin:40px auto 40px auto;padding:32px 28px 32px 28px;background:#fff;border-radius:14px;box-shadow:0 4px 24px rgba(23,114,208,0.08);">
+    <h1 style="font-size:2.2em;font-weight:700;margin-bottom:0.3em;color:#1772d0;text-align:center;letter-spacing:0.5px;">{{ page.title }}</h1>
+    <div style="display:flex;justify-content:center;align-items:center;gap:18px;margin-bottom:1.2em;">
+      <span style="color:#888;font-size:1em;">{{ page.date | date: "%Y-%m-%d" }}</span>
+      {% if page.author %}
+      <span style="color:#888;font-size:1em;">|</span>
+      <span style="color:#555;font-size:1em;">Author: <span style="color:#1772d0;font-weight:500;">{{ page.author }}</span></span>
+      {% endif %}
+    </div>
+    <hr style="border:none;border-top:1.5px solid #e6e6e6;margin-bottom:2em;">
+    <div class="post-content" style="font-size:1.13em;line-height:1.8;color:#222;max-width:700px;margin:0 auto;">
       {{ content }}
     </div>
-    <div style="margin-top:2em;text-align:right;">
-      <a href="{{ site.baseurl }}/" style="color:#1772d0;">&larr; Back to Home</a>
+    <div style="margin-top:2.5em;text-align:right;">
+      <a href="{{ site.baseurl }}/" style="color:#1772d0;font-size:1em;">&larr; Back to Home</a>
     </div>
   </div>
 </body>

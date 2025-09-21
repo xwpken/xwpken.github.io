@@ -33,7 +33,7 @@ where $C_{ijkl}$ is the fourth-order elasticity tensor.
 The strain tensor is defined in terms of the displacement field $u$ as:
 
 $$
-\varepsilon_{ij} = \\frac{1}{2} \\left( \\frac{\\partial u_i}{\\partial x_j} + \\frac{\\partial u_j}{\\partial x_i} \\right)
+\varepsilon_{ij} = \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\\partial u_j}{\partial x_i} \right)
 $$
 
 ## Governing Equations
@@ -41,7 +41,7 @@ $$
 The equilibrium equations (neglecting body forces) are:
 
 $$
-\\nabla \\cdot \\sigma = 0
+\nabla \cdot \sigma = 0
 $$
 
 Boundary conditions and material properties complete the mathematical description of a linear elastic problem.
