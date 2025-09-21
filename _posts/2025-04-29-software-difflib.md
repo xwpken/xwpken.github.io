@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DiffLiB"
-image: /images/research/2025-04-software-difflib.png
+image: /images/2025-04-software-difflib.png
 categories: software
 website: https://github.com/CMSL-HKUST/DiffLiB
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Research on topology optimization of compliant mechanisms based on level set band method"
 date:   2024-03-25 00:00:00 +00:00
-image: /images/research/2024-03-research-mems.jpg
+image: /images/2024-03-research-mems.jpg
 categories: research
 author: "Weipeng Xu"
 authors: "Peng Wei, Lei He, <strong>Weipeng Xu</strong>, Qi Chen, Jie Liu, Kai Long"

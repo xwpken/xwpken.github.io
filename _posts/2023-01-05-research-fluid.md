@@ -2,7 +2,7 @@
 layout: post
 title:  "Topology optimization for steady-state Navier-Stokes flow based on parameterized level set based method"
 date:   2023-01-05 00:00:00 +00:00
-image: /images/research/2023-01-research-fluid.png
+image: /images/2023-01-research-fluid.png
 categories: research
 author: "Weipeng Xu"
 authors: "Peng Wei, Zirun Jiang, <strong>Weipeng Xu</strong>, Zhenyu Liu, Yongbo Deng, Minqiang Pan"
