@@ -12,7 +12,8 @@ Linear elasticity is a fundamental theory in solid mechanics that describes how 
 
 ## Basic Concepts
 
-The relationship between stress $\sigma$ and strain $\varepsilon$ in a linear elastic material is given by Hooke's law:
+
+The relationship between stress \( \sigma \) and strain \( \varepsilon \) in a linear elastic material is given by Hooke's law:
 
 $$
 \sigma = E \varepsilon
@@ -26,14 +27,14 @@ $$
 \sigma_{ij} = C_{ijkl} \varepsilon_{kl}
 $$
 
-where $C_{ijkl}$ is the fourth-order elasticity tensor.
+where \( C_{ijkl} \) is the fourth-order elasticity tensor.
 
 ## Strain and Displacement
 
 The strain tensor is defined in terms of the displacement field $u$ as:
 
 $$
-\varepsilon_{ij} = \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\\partial u_j}{\partial x_i} \right)
+\varepsilon_{ij} = \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right)
 $$
 
 ## Governing Equations
