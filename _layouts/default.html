@@ -2,15 +2,6 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-E00L9PT3V9');
-  </script>
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -32,12 +23,12 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Weipeng XU
+                Weipeng Xu
               </h1>
-              <p>I am a PhD student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, where I worked on differentiable physics under the guidance of <a href="https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju">Prof. Tianju XUE</a>.
+              <p>I am a PhD student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, where I worked on differentiable physics under the guidance of <a href="https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju">Prof. Tianju Xue</a>.
               </p>
               <p>
-                I earned my Bachelor's degree (2017-2021) in Civil Engineering at the <a href="https://www.scut.edu.cn/en">South China University of Technology (SCUT)</a>. I then pursue my Master's degree (2021-2024) under the supervision of <a href="https://scholar.google.com/citations?user=Cxs-n5wAAAAJ">Prof. Peng WEI</a>, during which my research focused on structural topology optimization.
+                I earned my Bachelor's degree (2017-2021) in Civil Engineering at the <a href="https://www.scut.edu.cn/en">South China University of Technology (SCUT)</a>. I then pursue my Master's degree (2021-2024) under the supervision of <a href="https://scholar.google.com/citations?user=Cxs-n5wAAAAJ">Prof. Peng Wei</a>, during which my research focused on structural topology optimization.
               </p>
               <p style="text-align:center">
                 <a href="mailto:wxuby@connect.ust.hk">Email</a> &nbsp;/&nbsp;
@@ -69,7 +60,7 @@
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -127,7 +118,7 @@
           {% if cat == 'software' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -194,7 +185,7 @@
           {% if cat == 'blogs'%}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -260,7 +251,7 @@
           {% if cat == 'others'%}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
