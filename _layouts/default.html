@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/images/default/favicon.ico">
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -121,14 +123,14 @@
                 <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
               </td>
               <td style="padding:2.5%;width:75%;vertical-align:middle;line-height:1.4;">
-                  <div style="font-size:1.25em;font-weight:bold;margin-bottom:2px;">{{post.title}}</div>
+                  <div style="font-size:1.25em;font-weight:bold;display:inline;">{{post.title}}</div>
+                  <span style="font-weight:normal; margin-left:8px;">{{post.excerpt}}</span>
                   <ul style="list-style:none;padding:0;margin:0;">
                     <li>Language: {{post.language}}</li>
                     <li>Latest Version: {{post.latest_version}}</li>
                     <li>New Features: {{post.features}}</li>
-                    <li>Website: <a href="{{post.url}}">{{post.url}}</a></li>
+                    <li>Website: <a href="{{post.website}}">{{post.website}}</a></li>
                   </ul>
-                  <div>{{ post.excerpt }}</div>
               </td>
             </tr>
           {% endif %}
@@ -142,8 +144,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Blogs</h2>
-              <p> These are personal notes on mathematics and physics.
-              </p>
+              <p> These are some selected personal notes on mathematics and physics. More can be found in the <a href="https://github.com/xwpken/numNotes">blog section</a>.</p>
             </td>
           </tr>
         </table>
@@ -153,49 +154,10 @@
           {% for cat in post.categories %}
           {% if cat == 'blogs'%}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
+            <td style="padding:2.5%;width:100%;vertical-align:middle" colspan="2">
+              <a href="{{ post.url }}" style="font-size:1.1em;font-weight:bold;text-decoration:none;color:#222;">{{ post.title }}</a>
+              <span style="color:#888;font-size:90%;margin-left:10px;">{{ post.date | date: "%Y-%m-%d" }}</span>
+              <div style="margin-top:2px;">{{ post.excerpt }}</div>
             </td>
           </tr>
           {% endif %}
@@ -209,7 +171,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Miscellanea</h2>
-              </p>
+              <p> On the way to becoming a better researcher and developer, I find it essential to explore various topics and ideas. This section includes a collection of thoughts, experiments, and resources that may not fit neatly into my main projects but are still valuable in my journey.</p>
             </td>
           </tr>
         </table>
