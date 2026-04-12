@@ -4,6 +4,7 @@
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: wxuby@connect.ust.hk # your email address
 # linkedin_username: xxx # your LinkedIn username (the part after linkedin.com/in/)
+github_username: xwpken # your GitHub username
 research_gate_profile: Weipeng-Xu-4
 scholar_userid: wNQmcPEAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
