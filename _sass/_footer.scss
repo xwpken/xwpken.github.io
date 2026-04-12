@@ -26,9 +26,9 @@ footer.fixed-bottom {
 footer.sticky-bottom {
   margin-top: auto;
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-size: 0.78rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 1rem;
 
   .container {
     text-align: center;
