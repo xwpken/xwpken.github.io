@@ -28,13 +28,13 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, where I worked on differentiable physics under the guidance of <a href="https://ce.hkust.edu.hk/people/tian-ju-xue-xuetianju">Prof. Tianju Xue</a>.
+I am a PhD candidate in Civil Engineering at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, where I worked on differentiable physics under the guidance of <a href="https://scholar.google.com/citations?user=F2g2u0wAAAAJ">Prof. Tianju Xue</a>.
 
 I earned my Bachelor's degree (2017-2021) in Civil Engineering at the <a href="https://www.scut.edu.cn/en">South China University of Technology (SCUT)</a>. Then I pursue my Master's degree (2021-2024) under the supervision of <a href="https://scholar.google.com/citations?user=Cxs-n5wAAAAJ">Prof. Peng Wei</a>, during which my research focused on structural topology optimization.
 
-My research interests include computational mechanics, inverse problems, and machine learning. I am particularly interested in developing efficient and elegant algorithms for solving complex engineering problems. 
+My research interests include **computational mechanics**, **inverse problems**, and **scientific machine learning**. I am particularly interested in developing efficient and elegant algorithms for solving complex engineering problems.
 
-In my spare time, I enjoy watching videos (history, military, science, etc.), playing video games (strategy, card, etc.), and traveling. I am also a big fan of <a href="https://www.yugioh-card.com/en/">Yu-Gi-Oh!</a> since I was a child. 
+In my spare time, I enjoy watching videos (history, military, science, etc.), playing games (strategy, card, etc.), and traveling. I am a big fan of <a href="https://www.yugioh-card.com/en/">Yu-Gi-Oh!</a> since I was a child. 
 
 If you are interested in my research or would like to collaborate, please feel free to contact me via email: <a href="mailto:wxuby@connect.ust.hk">wxuby@connect.ust.hk</a>.
 
