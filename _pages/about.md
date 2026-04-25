@@ -32,7 +32,7 @@ I am a PhD candidate in Civil Engineering at the <a href="https://hkust.edu.hk/"
 
 I obtained my Bachelor's degree (2017-2021) in Civil Engineering at the <a href="https://www.scut.edu.cn/en">South China University of Technology (SCUT)</a>. Then I pursue my Master's degree (2021-2024) under the supervision of <a href="https://scholar.google.com/citations?user=Cxs-n5wAAAAJ">Prof. Peng Wei</a>, during which my research focused on structural topology optimization.
 
-My research interests include **computational mechanics**, **inverse problems**, and **scientific machine learning**. I am particularly interested in developing efficient and elegant algorithms for solving complex engineering problems.
+My research interests include **computational mechanics**, **inverse problems**, and **scientific machine learning**. I am particularly interested in developing efficient and elegant algorithms for solving complex engineering problems. You can find my learning notes on <a href="https://xwpken.github.io/blog">my blog</a>.
 
 In my spare time, I enjoy watching videos (history, military, science, etc.), playing games (strategy, card, etc.), and traveling. I am a big fan of <a href="https://www.yugioh-card.com/en/">Yu-Gi-Oh!</a> since I was a child. 
 

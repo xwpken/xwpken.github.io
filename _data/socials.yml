@@ -6,10 +6,6 @@ email: wxuby@connect.ust.hk # your email address
 github_username: xwpken # your GitHub username
 research_gate_profile: Weipeng-Xu-4
 scholar_userid: wNQmcPEAAAAJ # your Google Scholar ID
-my_blog:
-  logo: https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/rss.svg
-  title: Personal Blog
-  url: https://xwpken.github.io/blog
 linkedin_username: weipeng-xu-201028403 # your LinkedIn username (the part after linkedin.com/in/)
 
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
