@@ -100,13 +100,6 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=wNQmcPEAAAAJ", "_blank");
         },
       },{
-        id: 'social-my_blog',
-        title: 'My_blog',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://xwpken.github.io/blog", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
