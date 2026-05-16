@@ -58,12 +58,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-femat",
           title: 'FEMAT',
-          description: "Finite Element Analysis in MATLAB with Python interface.",
+          description: "Finite Element Analysis in MATLAB with Python interface",
           section: "Projects",handler: () => {
               window.location.href = "/projects/femat/";
             },},{id: "projects-jax-fem",
           title: 'JAX-FEM',
-          description: "A Differentiable Finite Element Method Library based on JAX.",
+          description: "A Differentiable Finite Element Method Library based on JAX (Collaborator)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/jax_fem/";
             },},{id: "teachings-data-science-fundamentals",
