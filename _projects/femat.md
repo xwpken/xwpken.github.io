@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FEMAT
-description: Finite Element Analysis in MATLAB with Python interface.s
+description: Finite Element Analysis in MATLAB with Python interface.
 category: software
 img: /assets/img/femat.png
 importance: 1
