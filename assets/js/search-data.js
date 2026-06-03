@@ -56,7 +56,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-femat",
+          section: "News",},{id: "projects-difflib",
+          title: 'DiffLiB',
+          description: "High-fidelity and differentiable simulation framework for lithium-ion batteries",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/difflib/";
+            },},{id: "projects-femat",
           title: 'FEMAT',
           description: "Finite Element Analysis in MATLAB with Python interface",
           section: "Projects",handler: () => {
